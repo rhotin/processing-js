@@ -1,0 +1,626 @@
+[33mcommit d940447dd520590b8ff7c8d259d7f33ef90d322e[m
+Merge: 29093c5 ba1e2f6
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 23 16:29:43 2011 -0400
+
+    Merge Processing.js v1.3.0 into master
+
+[33mcommit ba1e2f6a14f62187d9ca3cae204379d3c726f37a[m
+Merge: ff720bf 51d2a5c
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 23 16:26:22 2011 -0400
+
+    Merge remote branch 'jbuck/t1597' into develop [#1597]
+
+[33mcommit 51d2a5c2fb613dbed47b8dc992d91190dba7977d[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 23 16:25:46 2011 -0400
+
+    Updated CHANGELOG as per SR
+
+[33mcommit 4eb047104fd6b6679695acbf070d372d8d15de49[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 22 11:33:59 2011 -0400
+
+    CHANGELOG for 1.3
+
+[33mcommit ff720bfcf90f0b5721a717a5f5edef25a96e674f[m
+Merge: 9fa8e0f 19eb0b9
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 20 01:14:20 2011 -0400
+
+    Merge remote branch 'humphd/t1612' into develop [#1612]
+
+[33mcommit 9fa8e0f55e5020db04fa3e24a3f01355da4ca83d[m
+Merge: af4fa5b 36998da
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 20 01:13:38 2011 -0400
+
+    Merge remote branch 'jbuck/t1566' into develop [#1566]
+
+[33mcommit 19eb0b9de03bc592f4d9fd906eb303f86ab9a4d0[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 19 20:52:20 2011 -0400
+
+    Add YUI back, and option to use YUI or Closure (default to YUI for Opera's sake).
+
+[33mcommit 36998daca95e9785e89d5b6e558753999f5ff38e[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 19 15:31:37 2011 -0400
+
+    Updated epsilon for PR
+
+[33mcommit b3461589b9eba9b25bf1d4acc1dde637959b47e8[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 19 14:55:12 2011 -0400
+
+    Disable crisp mode when the canvas is transformed
+
+[33mcommit 3af53349468397a41d82df2db2988db0d4eda585[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 18 17:59:58 2011 -0400
+
+    First crack at allowing anti-aliasing with smooth()
+
+[33mcommit af4fa5be838f9dfe6141145bbc906c0e43976507[m
+Merge: 0905444 f3377f5
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 18 17:29:59 2011 -0400
+
+    Merge remote branch 'jbuck/t1614' into develop [#1614]
+
+[33mcommit f3377f5374cc34dfae52839d949f4063b6460537[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 18 17:13:36 2011 -0400
+
+    Fix regression in rect(), add a ref test for rectMode()
+
+[33mcommit 0905444323886c827c5385377c02289c831eb36e[m
+Merge: ba02f48 18eb71f
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Wed Aug 17 21:19:53 2011 -0400
+
+    Merge remote branch 'jbuck/t1470f' into develop [#1470]
+
+[33mcommit 18eb71fc39dcda608fda2801181d11273f4ef4b8[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 18 00:23:26 2011 -0300
+
+    Added moving-on-curves.pde and puff.pde to known fails
+
+[33mcommit 8fa3401359e33200ba0ab5237524fa124c4d5957[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 9 14:01:23 2011 -0400
+
+    Convert animated sketches in test suite to ref tests
+
+[33mcommit ba02f48a1fd405098d509a33be18446a97be370b[m
+Merge: 230f2ee c8eb6f0
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Wed Aug 17 14:25:29 2011 -0400
+
+    Merge remote branch 'humphd/t1603' into develop [#1603]
+
+[33mcommit 230f2ee8d07ef8416f235cd7b6b640da85401d93[m
+Merge: 176781a fe63c7e
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Wed Aug 17 14:24:31 2011 -0400
+
+    Merge remote branch 'jbuck/t1600' into develop [#1600]
+
+[33mcommit fe63c7e389e826f4c1ba2e9a0cbc3d8bde05fe49[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Wed Aug 17 14:55:16 2011 -0300
+
+    Marked test/ref/text-width.pde as a known failure
+
+[33mcommit c8eb6f0b24a69b07a9954d81ad86e5f0c7e61a34[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Wed Aug 17 11:44:48 2011 -0400
+
+    Add UI for enabling/disabling the removal of passed ref tests.
+
+[33mcommit 1826b987e6ed326f7cec5dc893efde8e9621156c[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 16 23:06:17 2011 -0400
+
+    Convert all images to PNG, remove color profiles, and regenerate ref tests with images
+
+[33mcommit a726b5c31b42cb66829b21a42a87945eb094e687[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Tue Aug 16 22:19:35 2011 -0400
+
+    Remove canvases for ref tests which pass, give status update on current running test.
+
+[33mcommit 176781a0c524dced52e9d6d3e31ca100a2574447[m
+Merge: a428f76 90fde4b
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 16 21:56:04 2011 -0400
+
+    Merge remote branch 'humphd/t1599' into develop [#1599]
+
+[33mcommit a428f76a42be14ce89485bde3f82716b61da6add[m
+Merge: c7309ac 1c10ef1
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 16 21:54:58 2011 -0400
+
+    Merge remote branch 'jbuck/t1121' into develop [#1121]
+
+[33mcommit c7309acc631e468174dc5222fd23e6becd36345a[m
+Merge: 9946574 97bec99
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Tue Aug 16 21:53:16 2011 -0400
+
+    Merge remote branch 'humphd/t1580' into develop [#1580]
+
+[33mcommit 90fde4bd4122c9dfc0627c6ad5aed99f7a64f9a2[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Tue Aug 16 13:06:51 2011 -0400
+
+    Removing color profile from buttonSprite.png so it will pass on Firefox.
+
+[33mcommit 2085e8d28113cade27220ab4fe0c0739f16f2ee9[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Tue Aug 16 12:31:32 2011 -0700
+
+    regenerated pimage-get using P5, with newlines fixed
+
+[33mcommit 9503b037a5b8af80d6de00fcd5cd3930facfd12d[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Tue Aug 16 12:28:25 2011 -0700
+
+    regenerated pimage-get using P5
+
+[33mcommit 97bec990f9db9b7b21b5b55adea14bf6362ea06b[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Tue Aug 16 12:37:01 2011 -0400
+
+    Adding Yury's rewrites to further shorten things in rewrite-pconstants.js
+
+[33mcommit 1c96801f3d4d3c3dc3913db2df1d2f6a58b29431[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Tue Aug 16 12:12:36 2011 -0400
+
+    Fixing variable usage of /Users/dave/moz/jsshell/js in Makefile as per review.
+
+[33mcommit 99465742795d82d3fcf5028fcfc30d78845ca48a[m
+Merge: c45bbfa bdf7aec
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 19:55:09 2011 -0400
+
+    Merge remote branch 'jbuck/t1565' into develop [#1565]
+
+[33mcommit c45bbfa5e9ac27ed4d95485cad72a7e2627dce99[m
+Merge: 70720ef 99bc8b2
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 19:52:22 2011 -0400
+
+    Merge remote branch 'jbuck/t1174' into develop [#1174]
+
+[33mcommit 70720ef8403e7046174fbbe1e9c12fb7fb7acdbf[m
+Merge: 7da17d8 6b8b10f
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 19:34:33 2011 -0400
+
+    Merge remote branch 'humphd/t1594' into develop [#1594]
+
+[33mcommit b8ab39a3fbbfa85e1161e4e67746ddb0ab63968d[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Mon Aug 15 17:17:53 2011 -0400
+
+    Fix PImage regression from 1223 landing + test: Set __isDirty flag for PImage created from get
+
+[33mcommit 1c10ef125a3d7de6823dca97ca69930a05091994[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 16:55:36 2011 -0400
+
+    Add unit tests, and update screenX/Y/Z unit tests
+
+[33mcommit 3a0f5c5d3578a7b6d718fb654e550f54512a3a66[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Mon Aug 15 14:52:08 2011 -0400
+
+    Fix regression in PImage.fromImageData() from ticket 1223 landing.
+
+[33mcommit 99bc8b222a4ed3ae0eb66dc7d86ba31686c491ad[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 11:42:21 2011 -0400
+
+    Updated histogram.pde to use a PNG
+
+[33mcommit 6b8b10feae09e5a6b3b43fb4781712400697603d[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Mon Aug 15 11:37:32 2011 -0400
+
+    Fix bug with QUIET writing to wrong dir
+
+[33mcommit f1890393cf03991a688ca8f88a46b467629d872c[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Mon Aug 15 10:51:37 2011 -0400
+
+    Expose PConstants on Processing prototype, don't keep mirror of PConstants in rewrite-pconstants.js
+
+[33mcommit 7da17d8fcb55f537330eabaf0b6eee0a678ab4b5[m
+Merge: 0821037 4046df9
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 10:44:21 2011 -0400
+
+    Merge remote branch 'jbuck/t948' into develop [#948]
+
+[33mcommit 0821037eae6dc5cbb39823f241214e1acbf6afce[m
+Merge: 156a8d5 5ffc80a
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Mon Aug 15 10:42:52 2011 -0400
+
+    Merge remote branch 'jbuck/t1582' into develop [#1582]
+    
+    Conflicts:
+    	processing.js
+    	test/unit/color.pde
+
+[33mcommit bdf7aec58bba4431337c0aeb32b1c059bc563496[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 22:31:55 2011 -0400
+
+    Updated AUTHORS for 1.3
+
+[33mcommit 5ffc80adaf98a7e6ef596794079cc935e32e62b4[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 22:28:59 2011 -0400
+
+    Convert toHSB into a function
+
+[33mcommit 156a8d586550df780375b92a3a760a567c2e1059[m
+Merge: dc6b15f 0ad9e18
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 22:18:35 2011 -0400
+
+    Merge remote branch 'Pomax/t1522' into develop [#1522]
+    
+    Conflicts:
+    	test/ref/tests.js
+    	test/ref/text-width.pde
+
+[33mcommit 0ad9e189205f3f2c5de491c70a5318109ec19441[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 21:09:50 2011 -0700
+
+    epsilon fix
+
+[33mcommit 4ad05860869e7ff0b0d1388e54298c3cabaa087f[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 19:57:27 2011 -0700
+
+    updated text-width to use dejavu serif
+
+[33mcommit dc6b15f68f254797e1e03f535e623c53202b20d7[m
+Merge: 3eceecf a683c37
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 22:07:50 2011 -0400
+
+    Merge remote branch 'jbuck/t1590' into develop [#1590]
+
+[33mcommit 3eceecf81498f9594b16a1bf6765680e7b59a88b[m
+Merge: 7146beb 88d14aa
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 22:01:17 2011 -0400
+
+    Merge remote branch 'Pomax/t1528' into develop [#1528]
+    
+    Conflicts:
+    	processing.js
+    	test/ref/tests.js
+    	test/ref/text-width.pde
+
+[33mcommit 88d14aa6cecc002b30e5c53eedc69bcd71130f43[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 20:03:05 2011 -0700
+
+    updated epsilons
+
+[33mcommit 7146beb22b821210007db998395fc710c313d1d9[m
+Merge: dd236a8 4e84c36
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 21:39:07 2011 -0400
+
+    Merge remote branch 'Pomax/t1423' into develop [#1423]
+
+[33mcommit 4e84c36ff323c8545e947245684061fe414811b1[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 18:18:19 2011 -0700
+
+    addedList is not an array anymore, changed push to []=true
+
+[33mcommit da769e2f476010c2dcfac2ca9d0ce8395d53805b[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 13:08:20 2011 -0700
+
+    simplified addedList presence code
+
+[33mcommit 13a27454695d9a3002e29b978ece2b193061aca0[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 13:04:21 2011 -0700
+
+    made addedList an object for perf gain
+
+[33mcommit 95e3384629c9d15a0aff1d5b5efd6edbabaf038f[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 11:59:59 2011 -0700
+
+    removed spurious spaces
+
+[33mcommit 6bcafcdedc1dcc8173e690e65032aeae36e8b481[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 11:58:57 2011 -0700
+
+    modified pjs so that @font-face rules injections only happen once per font
+
+[33mcommit c5d7adbbda504dc5f3901be94c6ef16d10e282a1[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:56:43 2011 -0400
+
+    Remove extraneous spaces for PR
+
+[33mcommit dd236a8247834d154bf418042ea6eb1769798f0c[m
+Merge: 65de16a 3490937
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:49:49 2011 -0400
+
+    Merge remote branch 'jbuck/t1439b' into develop [#1439]
+
+[33mcommit 65de16a8340c694cee471a2db7634733370b941c[m
+Merge: 87a1daf 760231f
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:45:44 2011 -0400
+
+    Merge remote branch 'jbuck/t145b' into develop [#145]
+
+[33mcommit 87a1daf089f2d198e3a172d8a397ca254a04574d[m
+Merge: ba93f2d 952ff90
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:42:20 2011 -0400
+
+    Merge remote branch 'jbuck/t1586' into develop [#t1586]
+
+[33mcommit a683c373d0ba9552d4b9a71fe2b145c8ff28ab59[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:36:32 2011 -0400
+
+    Display an error message when using beginCamera or endCamera in 2D
+
+[33mcommit 80b9016b68484692d2a1adb31f10efba9aad6bf3[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 14:21:49 2011 -0400
+
+    Updated ref test image and removed known failure ticket
+
+[33mcommit d0f2430d90be818062aaf0517e82261ea10112a1[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 11:16:21 2011 -0700
+
+    updated the text width ref test
+
+[33mcommit 690a1c7916033542ee3cb02f54a4d82ffe2656fa[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 11:12:08 2011 -0700
+
+    updated the text width ref test
+
+[33mcommit 4046df96cf3e6d7997aab833a468c2d929ba0bf2[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sun Aug 14 13:50:38 2011 -0400
+
+    Add <0 range checking for color()
+
+[33mcommit e615ada490e0d9486987f5a3c9b0f6ac34f8d1e1[m
+Author: Pomax <Pomax@nihongoresources.com>
+Date:   Sun Aug 14 10:28:31 2011 -0700
+
+    updated epsilons for ff5/macos
+
+[33mcommit ba93f2db6766a4c8cf8e6a360a054831b8250f24[m
+Merge: c1e7fee f4d1427
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 22:46:33 2011 -0400
+
+    Merge remote branch 'jbuck/t1510' into develop [#1510]
+    
+    Conflicts:
+    	test/ref/tests.js
+
+[33mcommit 3490937bfc4ecc2b6e39c6504e202813e694ed6a[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 20:09:33 2011 -0400
+
+    Move roundedRect$2d to please the gods of lint
+
+[33mcommit f4d1427bd2ffba72f3a046fd55d41f3cb9edf191[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 19:33:36 2011 -0400
+
+    Update epsilon override values
+
+[33mcommit c1e7fee83500a9264af2838467e36076f0602b0e[m
+Merge: 4f8aa13 729b2f4
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 19:10:15 2011 -0400
+
+    Merge remote branch 'humphd/t1585' into develop [#1585]
+
+[33mcommit 952ff90995700369166fe98c831afff9c42aa6d5[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 19:00:17 2011 -0400
+
+    Change to 12px for PR
+
+[33mcommit cd421de928859ca5e6b855bf28810feb9cb2e78a[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 18:58:25 2011 -0400
+
+    Move toHSB off color
+
+[33mcommit 0c01dd1edfec1b4981cf5faa0b6b08543f69ff08[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 16:44:58 2011 -0400
+
+    Added a unit test for color.toHSB
+
+[33mcommit bd2a8ca77fadd718e8bf35e23b4d5f4c7a291869[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Sat Aug 13 16:07:31 2011 -0400
+
+    Add a fake css font declaration to stop a warning from appearing
+
+[33mcommit 729b2f4c331eb1973cd3fa723206ac42f2011194[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Sat Aug 13 11:11:25 2011 -0400
+
+    Quote font name in computeFontMetrics so names with a period are accepted.
+
+[33mcommit e1388a12420e10121dd2c5faf7a20ef4d1ad1336[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 16:05:03 2011 -0400
+
+    Replace forwardTransform/reverseTransform with modelView/modelViewInv
+
+[33mcommit d60640d461cf10f405b92c33d010ce2c4ccec74e[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 15:47:13 2011 -0400
+
+    Add build step to rewrite PConstants.foo symbols to literal values.
+
+[33mcommit aa71e2dc0aaeb12a83581afbd1bcc1bd21f40066[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 15:15:37 2011 -0400
+
+    Throw an error when using a rounded rect in 3D mode
+
+[33mcommit df49ca802eb6cfea8ee3f264491b46b175418e2c[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Wed Aug 10 15:21:47 2011 -0400
+
+    2D implementation of a rect() with rounded corners
+
+[33mcommit 4f8aa13aa92da010294f5a3a5df8a98f7974f02d[m
+Merge: 29bddff d6cda01
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 14:21:34 2011 -0400
+
+    Merge remote branch 'yury/ticket-1436-lerpColor' into develop [#1436]
+    
+    Conflicts:
+    	test/perf/tests.js
+
+[33mcommit 29bddff5d1e5b67fd3d7363c28e2e0b6812b3d5d[m
+Merge: 5dd44ea f31f2b9
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 13:08:08 2011 -0400
+
+    Merge remote branch 'jbuck/t1578' into develop [#1578]
+
+[33mcommit 5dd44ea88a9df7e50f00fb5a03fe34ae9b1eeb4c[m
+Merge: 28f51cc 13ea557
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 12:13:12 2011 -0400
+
+    Merge remote branch 'humphd/t1223-develop' into develop [#1223]
+
+[33mcommit 13ea557cff10586bcdaae5094ba8ed5f581a2b0c[m
+Merge: 1559b37 57b3575
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 10:53:32 2011 -0400
+
+    Merge branch 't1223' into t1223-develop
+
+[33mcommit 57b357595bbbfb7fb305c1c144769bbc733f0620[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 10:53:19 2011 -0400
+
+    Adding missing spouch.png needed for loadImage.pde perf test.
+
+[33mcommit 1559b37f54623a3d0501cd30940144a57653e371[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 10:48:36 2011 -0400
+
+    Fix for toImageData()
+
+[33mcommit 28f51cccd7bed581dab37285b31593ef4d2376df[m
+Merge: 12ee5f5 9ed8b66
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 12 10:24:35 2011 -0400
+
+    Merge remote branch 'jbuck/t1579' into develop [#1579]
+
+[33mcommit 8b45d5e06a75a19ac24057c5b74038671f32f4cf[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 08:06:00 2011 -0400
+
+    Replace a ; with a , in PImage.prototype
+
+[33mcommit aec48f540a8281893681bbd0b09bd453c0699449[m
+Merge: ffafbaf 12ee5f5
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Fri Aug 12 07:57:36 2011 -0400
+
+    Merge branch 'develop' into t1223-develop
+    
+    Conflicts:
+    	processing.js
+    	test/perf/tests.js
+
+[33mcommit 12ee5f592c22432f6560cef7f38bfa6a451be5aa[m
+Merge: 562442f 933f4b2
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 11 23:07:09 2011 -0400
+
+    Merge remote branch 'humphd/t1552' into develop [#1552]
+
+[33mcommit 9ed8b66764ac6e3212127eb4658fbdae2d02c4fb[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 11 22:51:19 2011 -0400
+
+    Remove unused function colorBlendWithAlpha
+
+[33mcommit d6cda0179634e6f3dd001e171624bcc1689c8e4f[m
+Author: notmasteryet <async.processingjs@yahoo.com>
+Date:   Thu Aug 11 20:52:31 2011 -0500
+
+    lerpColor: inline p.color.toInt
+
+[33mcommit f76da551def91ce25483047d7f76a2bcb7825125[m
+Author: Roger Sodre <rbentos@yahoo.com>
+Date:   Thu Aug 11 19:57:06 2011 -0300
+
+    Fixed grayscale on p.color.toHSB, which was ignoring range.
+
+[33mcommit 760231f5951ee25da19712a0dfa608bb65e58a5e[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 11 17:34:10 2011 -0400
+
+    Fixes for PR
+
+[33mcommit e82bd89f67b5871d88c7bc13048840dc57b496b5[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Fri Aug 5 19:28:06 2011 -0400
+
+    Revamp smooth() and noSmooth()
+
+[33mcommit 562442ffc098f931b61cf91b0d97e7a731b58420[m
+Merge: 64fb98f fe9d112
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 11 17:05:34 2011 -0400
+
+    Merge remote branch 'Pomax/t1427' into develop [#1427]
+    
+    Conflicts:
+    	test/ref/tests.js
+
+[33mcommit f31f2b9251c1d5cfc942a9dfebb31471030cd004[m
+Author: Jon Buckley <jon@jbuckley.ca>
+Date:   Thu Aug 11 17:03:20 2011 -0400
+
+    Remove textMode(SCREEN)-specific handling code in text()
+
+[33mcommit ffafbafd40d056923dbc398f69a296209bcd0a71[m
+Author: David Humphrey <david.humphrey@senecac.on.ca>
+Date:   Thu 
